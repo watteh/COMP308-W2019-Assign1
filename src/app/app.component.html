@@ -1,12 +1,17 @@
 <nav class="navbar fixed-top navbar-dark bg-dark">
-    <div class="nav-wrapper">
-        <!-- create logo and put here -->
-        <a href="#" class="brand-logo">Logo</a>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Projects</a>
-        <a href="">Services</a>
-        <a href="">Contact</a>
+    <div class="logo">Logo here</div>
+    <div class="nav-wrapper justify-content-end">
+        <a class="nav-item" href="">Home</a>
+        <a class="nav-item" href="">About</a>
+        <a class="nav-item" href="">Projects</a>
+        <a class="nav-item" href="">Services</a>
+        <a class="nav-item" href="">Contact</a>
     </div>
 </nav>
-<router-outlet></router-outlet>
+
+<div class="fixed-bottom text-center">
+    <fa class="chevron" name="chevron-circle-up " size="4x"></fa>
+</div>
+
+<router-outlet>
+</router-outlet>

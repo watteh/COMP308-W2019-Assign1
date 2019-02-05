@@ -2,7 +2,11 @@ nav {
     height: 4em;
 }
 
-a {
-    color: #ffffff;
+.nav-item {
+    color: white;
     margin: 1em;
+}
+
+.logo {
+    background-color: white;
 }

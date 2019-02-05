@@ -11,4 +11,12 @@ export class AppComponent implements OnInit {
   }
 }
 
+$('.nav-wrapper > a').on('click', (e) => {
+  $('.nav-wrapper > a').removeClass('active');
+  $(this).addClass('active');
+});
+
+$('.topPage').on('click', () => {
+  document.documentElement.scrollTop = 0;
+});
 
