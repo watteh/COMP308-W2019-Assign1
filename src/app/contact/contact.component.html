@@ -1,4 +1,34 @@
 <div class="top text-center">
-    <h1>{{title}}</h1>
+    <h1><i class="fa fa-envelope"></i> {{title}}</h1>
     <hr class="my-4">
+    <strong>If you're interested in contacting me, fill out the form below and send me a message:</strong><br /><br />
+</div>
+
+<div class="jumbotron">
+    <div class="container">
+        <p><i class="fa fa-map-marker fa-lg"></i> <a href="https://goo.gl/maps/tvrqXfruzzu"> Toronto, ON</a></p>
+        <form>
+            <div class="form-group">
+                <label for="inputFName">First Name</label>
+                <input class="form-control" id="inputFName" placeholder="John">
+                <label for="inputLName">Last Name</label>
+                <input class="form-control" id="inputLName" placeholder="Doe">
+            </div>
+            <div class="form-group">
+                <label for="inputNumber">Phone Number</label>
+                <input class="form-control" id="inputNumber" placeholder="647-777-7777">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email Address</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="inputDescription">Message</label>
+                <textarea class="form-control" id="inputDescription" placeholder="Please describe the solution you are looking for..." rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <a type="submit" class="btn btn-primary btn-lg" href="/">Send Message</a>
+            </div>
+        </form>
+    </div>
 </div>
