@@ -1,11 +1,11 @@
-<nav class="navbar fixed-top" routerLinkActive="active">
+<nav class="navbar fixed-top">
     <div class="logo">Logo here</div>
     <div class="nav-wrapper justify-content-end">
-        <a class="nav-item" routerLinkActive="active-link" routerLink="/"><i class="fas fa-shoe-prints"></i> Home</a>
-        <a class="nav-item" routerLinkActive="active-link" routerLink="/about"><i class="fas fa-portrait"></i> About</a>
-        <a class="nav-item" routerLinkActive="active-link" routerLink="/projects"><i class="fas fa-briefcase"></i> Projects</a>
-        <a class="nav-item" routerLinkActive="active-link" routerLink="/services"><i class="fas fa-concierge-bell"></i> Services</a>
-        <a class="nav-item" routerLinkActive="active-link" routerLink="/contact"><i class="fa fa-envelope"></i> Contact</a>
+        <a class="nav-item" routerLinkActive="active" routerLink="/" [routerLinkActiveOptions]="{ exact: true }"><i class="fas fa-shoe-prints"></i> Home</a>
+        <a class="nav-item" routerLinkActive="active" routerLink="/about"><i class="fas fa-portrait"></i> About</a>
+        <a class="nav-item" routerLinkActive="active" routerLink="/projects"><i class="fas fa-briefcase"></i> Projects</a>
+        <a class="nav-item" routerLinkActive="active" routerLink="/services"><i class="fas fa-concierge-bell"></i> Services</a>
+        <a class="nav-item" routerLinkActive="active" routerLink="/contact"><i class="fa fa-envelope"></i> Contact</a>
     </div>
 </nav>
 <router-outlet>

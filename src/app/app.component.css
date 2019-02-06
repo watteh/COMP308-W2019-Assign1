@@ -14,8 +14,14 @@ nav {
 .nav-item {
     color: white;
     margin: 1em;
+    height: 100%;
 }
 
 .logo {
     background-color: white;
+}
+
+.active,
+.nav-item:hover {
+    color: #03A9F4;
 }
