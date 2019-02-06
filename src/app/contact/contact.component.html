@@ -7,27 +7,27 @@
 
 <div class="jumbotron">
     <div class="container">
-        <form>
+        <form (ngSubmit)="processForm()">
             <div class="form-group">
                 <label for="inputFName">First Name</label>
-                <input class="form-control" id="inputFName" placeholder="John">
+                <input class="form-control" id="inputFName" placeholder="John" [(ngModel)]="fName" name="fName">
                 <label for="inputLName">Last Name</label>
-                <input class="form-control" id="inputLName" placeholder="Doe">
+                <input class="form-control" id="inputLName" placeholder="Doe" [(ngModel)]="lName" name="lName">
             </div>
             <div class="form-group">
                 <label for="inputNumber">Phone Number</label>
-                <input class="form-control" id="inputNumber" placeholder="647-777-7777">
+                <input class="form-control" id="inputNumber" placeholder="647-777-7777" [(ngModel)]="number" name="number">
             </div>
             <div class="form-group">
                 <label for="inputEmail">Email Address</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" [(ngModel)]="email" name="email">
             </div>
             <div class="form-group">
                 <label for="inputDescription">Message</label>
-                <textarea class="form-control" id="inputDescription" placeholder="Please describe the solution you are looking for..." rows="3"></textarea>
+                <textarea class="form-control" id="inputDescription" placeholder="Please describe the solution you are looking for..." rows="3" [(ngModel)]="message" name="message"></textarea>
             </div>
             <div class="form-group">
-                <a type="submit" class="btn btn-primary btn-lg" href="/">Send Message</a>
+                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
             </div>
         </form>
     </div>

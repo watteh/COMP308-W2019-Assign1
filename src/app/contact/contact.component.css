@@ -4,7 +4,7 @@
 
 .btn {
     background-color: #03A9F4;
-    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
     margin-right: 1em;
 }
 
