@@ -6,22 +6,32 @@ nav {
     box-shadow: 0 8px 6px -6px #999;
 }
 
-.chevron {
-    color: #303F9F;
-    text-shadow: 2px 2px 4px #000000;
-}
-
 .nav-item {
     color: white;
     margin: 1em;
-    height: 100%;
+    height: auto;
 }
 
-.logo {
-    background-color: white;
+img {
+    width: auto;
+    height: 4em;
+    object-fit: cover;
 }
 
 .active,
 .nav-item:hover {
     color: #03A9F4;
 }
+
+span {
+    color: #03A9F4;
+    background-color: #03A9F4;
+}
+
+
+/* @media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+} */
