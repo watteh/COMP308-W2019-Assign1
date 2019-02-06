@@ -1,3 +1,5 @@
+// main.ts  -- Ryan Watson -- 300920674 -- 02/06/19
+
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

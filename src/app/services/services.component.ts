@@ -1,3 +1,4 @@
+// services.component.ts -- Ryan Watson -- 300920674 -- 02/06/19
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services.component.css']
 })
 export class ServicesComponent implements OnInit {
+  // setting title variable for services page
   title = `Services`;
 
   constructor() { }

@@ -1,5 +1,5 @@
+// app.component.ts -- Ryan Watson -- 300920674 -- 02/06/19 
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',

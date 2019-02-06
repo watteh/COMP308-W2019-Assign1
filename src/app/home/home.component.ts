@@ -1,3 +1,5 @@
+// home.component.ts -- Ryan Watson -- 300920674 -- 02/06/19
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  // sets title variable for home page
   title = `Welcome to Watson Innovation`;
 
   constructor() { }

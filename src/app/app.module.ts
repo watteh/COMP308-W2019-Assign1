@@ -1,3 +1,5 @@
+// app.module.ts -- Ryan Watson -- 300920674 -- 02/06/19
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
