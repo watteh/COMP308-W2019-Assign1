@@ -1,16 +1,16 @@
-<nav class="navbar fixed-top">
+<nav class="navbar navbar-expand-md fixed-top">
     <img src="../assets/cover.png">
-    <div class="nav-wrapper justify-content-end navbar-toggleable-md">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse" id="navbarContent">
-            <a class="nav-item" routerLinkActive="active" routerLink="/" [routerLinkActiveOptions]="{ exact: true }"><i class="fas fa-shoe-prints"></i> Home</a>
-            <a class="nav-item" routerLinkActive="active" routerLink="/about"><i class="fas fa-portrait"></i> About</a>
-            <a class="nav-item" routerLinkActive="active" routerLink="/projects"><i class="fas fa-briefcase"></i> Projects</a>
-            <a class="nav-item" routerLinkActive="active" routerLink="/services"><i class="fas fa-concierge-bell"></i> Services</a>
-            <a class="nav-item" routerLinkActive="active" routerLink="/contact"><i class="fa fa-envelope"></i> Contact</a>
-        </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <i class="fas fa-bars"></i>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarContent">
+        <ul class="navbar-nav justify-content-center">
+            <li><a class="nav-item" routerLinkActive="active" routerLink="/" [routerLinkActiveOptions]="{ exact: true }"><i class="fas fa-shoe-prints"></i> Home</a></li>
+            <li><a class="nav-item" routerLinkActive="active" routerLink="/about"><i class="fas fa-portrait"></i> About</a></li>
+            <li><a class="nav-item" routerLinkActive="active" routerLink="/projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+            <li><a class="nav-item" routerLinkActive="active" routerLink="/services"><i class="fas fa-concierge-bell"></i> Services</a></li>
+            <li><a class="nav-item" routerLinkActive="active" routerLink="/contact"><i class="fa fa-envelope"></i> Contact</a></li>
+        </ul>
     </div>
 </nav>
 <router-outlet>
